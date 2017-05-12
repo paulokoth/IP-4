@@ -10,14 +10,34 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  background-attachment: scroll;
+  margin-bottom: 50px;
 }
 
 .header h1{
   text-align: center;
   padding-top: 400px;
-  font-size: 60px;
+  font-size: 70px;
+  font-family: fantasy;
+  font-display: fallback;
+  color: red;
 }
 .gameplay {
   background-color: lightblue;
-  padding: 30px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.playbuttons {
+  margin-left: 160px;
+}
+
+.rollButton{
+  background-color: green;
+  color: white;
+}
+
+.holdButton{
+  background-color: maroon;
+  color: white;
 }

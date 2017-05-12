@@ -14,11 +14,11 @@
   <body>
     <div class="container-fluid">
       <div class="row header">
-        <h1><strong>Pig Dice:</strong>the game</h1>
+        <h1><strong>Pig Dice:</strong>   the game</h1>
       </div>
 
-      <div class="container gameplay">
-        <form id="results">
+      <form id="results">
+        <div class="container gameplay">
           <div class="form-group">
             <label for="player1">Player 1 Score</label>
             <input type="text" class="form-control" placeholder="Player 1" id="player1">
@@ -27,11 +27,21 @@
             <label for="player2">Player 2 Score</label>
             <input type="text" class="form-control" placeholder="Player 1" id="player1">
           </div>
-      </div>
+        </div>
 
-
-
-        </form>
+        <div class="container playbuttons">
+          <div class="col-md-6">
+            <button type="submit" class="btn rollButton">Roll Dice!</button>
+            <button type="submit" class="btn holdButton">Hold</button>
+            <span class="btn btn-primary" id="Plyr1">Player 1</span>
+          </div>
+          <div class="col-md-6">
+            <button type="submit" class="btn rollButton">Roll Dice!</button>
+            <button type="submit" class="btn holdButton">Hold</button>
+            <span class="btn btn-primary" id="Plyr2">Player 2</span>
+          </div>
+        </div>
+      </form>
 
       </div>
 
