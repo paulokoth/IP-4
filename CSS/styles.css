@@ -1,0 +1,23 @@
+body{
+  background-image: url("../Resources/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  background-image: url("../Resources/PigDice banner.jpg");
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.header h1{
+  text-align: center;
+  padding-top: 400px;
+  font-size: 60px;
+}
+.gameplay {
+  background-color: lightblue;
+  padding: 30px;
+}
